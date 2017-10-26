@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h3 class = "name"> SenSit </h3>
+    <img class = "logo" src = "img/logo50s.PNG" alt = "Logo">
     <nav>
       <ul>
         <li> <a href="team.html">Team</a></li>
@@ -18,9 +18,18 @@
     </nav>
   </header>
     <div>
-      <h3 class = pageTitles> Image of our design </h3>
-      <p>
-     </p>
+      <h1 class = pageTitles> SenSit </h1>
+      <h3 class = pageTitles> Technical description </h3>
+      <p> The Sensit device can be broken into two components: hardware and software. The hardware aspect is primarily composed of a force sensitive resistor connected to an Arduino Uno using a voltage divider circuit with 10k ohm resistor. The arduino is linked to a Raspberry pi 3 Model B through a USB connection, and transmits any data it senses. The raspberry pi does some initial filtering of the data, and transmits it via a WiFi connection to a MongoDB instance hosted on a cloud service like Heroku or AWS. The software component of the SenSit, a website or Android application, interprets the information and presents it to users. The application can be configured to send notifications and other alerts. The software aspect of Sensit is essentially an application that interprets the data signals into personal health information.
+      </p>
+      <div class = "designDiagrams">
+        <img class = "product" src = "img/SenSitNetworkDiagram.PNG" alt = "Device">
+        <p> The SenSit is able to transmit your data wirelessly, giving you to access detailed activity records of sitting or laying down. </p>
+      </div>
+      <div class = "designDiagrams">
+        <img class = "product" src = "img/UserInterface.PNG" alt = "Device">
+        <p> View activity data on your device. </p>
+      </div>
     </div>
   <footer>
   </footer>

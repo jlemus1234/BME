@@ -55,16 +55,54 @@ a.current {
 
 a:hover {
   color: black;
-  font-size: 17px;
+  text-decoration: underline;
 }
 
-img.portrait {
+img.product {
   position: relative;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   bottom:0;
-  border-style: solid;
-  border-color: rgb(116, 168, 168);
+}
+
+div.designDiagrams {
+  overflow:hidden;
+  width: 100%;
+}
+
+.portraitRow{
+  overflow: hidden;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%
+}
+.portraitRow h2{
+  float: left;
+  margin: 0;
+  padding: 4%;
+  color: rgb(66,118, 118);
+}
+
+.portraitRow img{
+  float: left;
+}
+
+.portraitRow p{
+
+}
+
+.portraitInfo{
+
+}
+
+img.garb {
+  float:left;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  bottom:0;
+  border-style:0;
 }
 
 footer {
@@ -85,4 +123,12 @@ h4 {
 
 .pageTitles {
   color: rgb(116, 168, 168);
+}
+
+.logo {
+  position: relative;
+  margin-top: 0%;
+  padding: 0%;
+  margin-bottom: 0%;
+  float: left;
 }
